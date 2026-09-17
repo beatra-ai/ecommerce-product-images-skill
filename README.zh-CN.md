@@ -14,9 +14,13 @@
 | **费用** | 安装免费。每次生成消耗 Beatra 账号积分，只有你明确要求这次生成或批准确认卡后才会付费。 |
 | **支持的 Agent** | Claude Code、Codex、OpenClaw |
 
+<p align="center"><img src="assets/hero.webp" width="800" alt="虚构品牌 NORTHLOOP 750 ml 哑光鼠尾草绿保温瓶的四张商品图组（白底主图、瓶盖与瓶颈细节、书桌生活场景、开箱图），均以同一张商品原图为参考生成。由 Beatra AI 生成。"></p>
+
+*虚构品牌 NORTHLOOP 750 ml 哑光鼠尾草绿保温瓶的四张商品图组（白底主图、瓶盖与瓶颈细节、书桌生活场景、开箱图），均以同一张商品原图为参考生成。由 Beatra AI 生成。*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ecommerce-listing-image-set`](skills/ecommerce-listing-image-set) | [SKILL.md](skills/ecommerce-listing-image-set/SKILL.md) | 0.1.9 |
+| [`ecommerce-listing-image-set`](skills/ecommerce-listing-image-set) | [SKILL.md](skills/ecommerce-listing-image-set/SKILL.md) | 0.2.0 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ecommerce-listing-image-set) 自动发布，问题请到那里反馈。
 
@@ -40,6 +44,18 @@ gh skill install beatra-ai/ecommerce-product-images-skill ecommerce-listing-imag
 
 ```text
 从 https://github.com/beatra-ai/ecommerce-product-images-skill 安装 ecommerce-listing-image-set skill（目录 skills/ecommerce-listing-image-set），然后按它的 SKILL.md 连接我的 Beatra 账号。
+```
+
+## 效果示例
+
+<p align="center"><img src="assets/demo-2.webp" width="800" alt="厨房桌上一只虚构品牌 NORTHLOOP 保温瓶的商品原图（这张原图本身也是为演示 AI 生成的），与据此生成的白底主图并排，瓶形、颜色和标签文字保持一致。由 Beatra AI 生成。"></p>
+
+*厨房桌上一只虚构品牌 NORTHLOOP 保温瓶的商品原图（这张原图本身也是为演示 AI 生成的），与据此生成的白底主图并排，瓶形、颜色和标签文字保持一致。由 Beatra AI 生成。*
+
+提示词：
+
+```text
+[before] Casual smartphone photo taken by a small online seller of their own product: one insulated stainless steel water bottle standing upright on a light oak kitchen table next to a window. The bottle has a matte sage green powder-coated body, a straight cylindrical shape with softly rounded shoulders, a brushed stainless steel neck ring, and a matte sage green screw cap with a short brushed steel carry loop on top. On the front of the body, printed in small white bold sans-serif capital letters, is the exact word "NORTHLOOP", and directly below it in smaller white capitals the exact text "750 ml". Nothing else is written anywhere on the bottle. The bottle is shown front-on at a slight angle, a little off center, with a kitchen wall softly out of focus behind it. Plain daylight from the window, slightly flat phone-camera colors, mild noise, honest amateur product snapshot. Photorealistic, no people, no other text or logos anywhere. ||| [after] Create slot 1, the clean product hero for a marketplace listing. Image 1 is the exact verified SKU. Preserve its matte sage green body, straight cylindrical shape with softly rounded shoulders, brushed stainless steel neck ring, matte sage green screw cap with brushed steel carry loop, and the small white printed text "NORTHLOOP" with "750 ml" directly below it, exactly as they appear in image 1, with no other text on the bottle. Show the single bottle upright, centered, front-on at eye level with the text facing the camera, on a pure white seamless background with a soft contact shadow, the bottle filling about three quarters of the frame height. Soft diffused daylight from the upper left, gentle natural shadows, a calm muted palette of sage, warm white, and light oak, crisp photorealistic product focus, the bottle as the clear focal point of the frame.
 ```
 
 ## 你能得到什么
