@@ -20,7 +20,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ecommerce-listing-image-set`](skills/ecommerce-listing-image-set) | [SKILL.md](skills/ecommerce-listing-image-set/SKILL.md) | 0.2.0 |
+| [`ecommerce-listing-image-set`](skills/ecommerce-listing-image-set) | [SKILL.md](skills/ecommerce-listing-image-set/SKILL.md) | 0.2.3 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ecommerce-listing-image-set) 自动发布，问题请到那里反馈。
 
@@ -60,13 +60,13 @@ gh skill install beatra-ai/ecommerce-product-images-skill ecommerce-listing-imag
 
 ## 你能得到什么
 
-- **完整的商品画廊规划** — 覆盖主图、卖点、细节、场景、尺寸或比例与包装内容，避免多张图重复同一信息。
-- **一个 SKU，一套视觉方向** — 在整套图片中统一商品身份、颜色、材质、图案、比例和品牌表现。
+- **从主图到详情图整套规划** — 覆盖主图、卖点、细节、场景、尺寸或比例与包装内容，避免多张图重复同一信息。
+- **一个 SKU，一套视觉方向** — 每张图里都是同一件商品，颜色、材质、图案、比例和品牌表现保持一致。
 
 ## 适用场景
 
 - **平台新品上架** — 为 Amazon、Etsy 等平台准备从主图到细节图的有序上架序列。
-- **Shopify 商品画廊** — 用统一套图展示商品本身、核心利益、尺寸、使用场景和包装内容。
+- **Shopify 店铺商品图** — 用统一套图展示商品本身、核心利益、尺寸、使用场景和包装内容。
 - **存量商品图更新** — 以当前商品信息和照片为依据，替换风格不一致的旧图。
 
 ## 常见问题
@@ -77,7 +77,7 @@ gh skill install beatra-ai/ecommerce-product-images-skill ecommerce-listing-imag
 
 ### 必须提供已确认的商品信息吗？
 
-是的。规划套图前应确认商品身份、规格、可见细节、尺寸和包装内容。
+是的。规划套图前应确认具体是哪款商品，以及规格、可见细节、尺寸和包装内容。
 
 ### 可以只精修其中一张吗？
 

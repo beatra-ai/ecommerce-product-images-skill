@@ -20,7 +20,7 @@ Turn real product photos and confirmed SKU facts into a matching ecommerce image
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ecommerce-listing-image-set`](skills/ecommerce-listing-image-set) | [SKILL.md](skills/ecommerce-listing-image-set/SKILL.md) | 0.2.0 |
+| [`ecommerce-listing-image-set`](skills/ecommerce-listing-image-set) | [SKILL.md](skills/ecommerce-listing-image-set/SKILL.md) | 0.2.3 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ecommerce-listing-image-set). Report issues there.
 
@@ -62,7 +62,7 @@ Prompt:
 ## What you get
 
 - **A complete gallery plan** — Cover the hero, key features, product details, lifestyle context, size or fit, and included items without repeating the same message.
-- **One SKU, one visual direction** — Keep product identity, color, materials, graphics, proportions, and brand treatment coherent across the full set.
+- **One SKU, one visual direction** — Make every image show the same product, with color, materials, graphics, proportions, and brand treatment kept consistent.
 
 ## Use cases
 
@@ -78,7 +78,7 @@ A set can include a hero, feature, detail, lifestyle, size or fit, and packaging
 
 ### Do I need verified product information?
 
-Yes. Product identity, specifications, visible details, dimensions, and included items should be confirmed before the gallery is planned.
+Yes. The exact product, specifications, visible details, dimensions, and included items should be confirmed before the gallery is planned.
 
 ### Can one image be refined without changing the set?
 
