@@ -20,7 +20,7 @@ Turn real product photos and confirmed SKU facts into a matching ecommerce image
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ecommerce-listing-image-set`](skills/ecommerce-listing-image-set) | [SKILL.md](skills/ecommerce-listing-image-set/SKILL.md) | 0.2.3 |
+| [`ecommerce-listing-image-set`](skills/ecommerce-listing-image-set) | [SKILL.md](skills/ecommerce-listing-image-set/SKILL.md) | 0.2.6 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ecommerce-listing-image-set). Report issues there.
 
@@ -84,12 +84,12 @@ Yes. The exact product, specifications, visible details, dimensions, and include
 
 Yes. A selected image can receive a focused edit while the accepted product and visual direction remain the reference.
 
-## Updates
+## Updates and security
 
-Each installed skill checks for a new version at most once a day, verifies the
-official archive before replacing itself, and leaves your installation untouched
-if anything fails. Turn it off at any time — see
-`references/automatic-updates-and-safety.md` inside the skill.
+Since the 2026-10 release, this skill contains no self-updater: it runs only the
+files you installed and never replaces them on its own. Update it with the tool
+you installed it with — `npx skills update ecommerce-listing-image-set` or `gh skill update ecommerce-listing-image-set`.
+Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
