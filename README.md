@@ -1,6 +1,8 @@
 # Ecommerce Product Images Skill
 
-English | [简体中文](./README.zh-CN.md)
+English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
+
+> 👉 See also [AI Product Photography Skill](https://github.com/beatra-ai/ai-product-photography-skill)
 
 Turn real product photos and confirmed SKU facts into a matching ecommerce image set: a hero image, feature visuals, lifestyle scenes, size views, and in-box images, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
@@ -54,6 +56,12 @@ Install the ecommerce-listing-image-set skill from https://github.com/beatra-ai/
 <p align="center"><img src="assets/demo-2.webp" width="800" alt="The source photo of a fictional NORTHLOOP bottle on a kitchen table (itself AI-generated for this demo) beside the white-background hero made from it, with shape, color, and label text unchanged. AI-generated with Beatra."></p>
 
 *The source photo of a fictional NORTHLOOP bottle on a kitchen table (itself AI-generated for this demo) beside the white-background hero made from it, with shape, color, and label text unchanged. AI-generated with Beatra.*
+
+Ask your agent:
+
+```text
+Here is my phone photo of the NORTHLOOP bottle on a kitchen table (./bottle-table.jpg). Plan the listing image set from it, starting with the white-background hero, then the cap-and-neck detail, a desk lifestyle scene and an in-box view, keeping the bottle's shape, matte sage color and label text unchanged.
+```
 
 Prompt:
 

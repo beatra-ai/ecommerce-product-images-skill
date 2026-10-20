@@ -1,6 +1,8 @@
 # Ecommerce Product Images Skill
 
-[English](./README.md) | 简体中文
+[English](./README.md) | 简体中文 | [日本語](./README.ja.md)
+
+> 👉 也看看 [AI Product Photography Skill](https://github.com/beatra-ai/ai-product-photography-skill)
 
 基于真实商品照片和已确认的 SKU 信息，一次规划并做出主图、卖点图、场景图、尺寸图和包装清单图，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
 
@@ -52,6 +54,12 @@ gh skill install beatra-ai/ecommerce-product-images-skill ecommerce-listing-imag
 <p align="center"><img src="assets/demo-2.webp" width="800" alt="厨房桌上一只虚构品牌 NORTHLOOP 保温瓶的商品原图（这张原图本身也是为演示 AI 生成的），与据此生成的白底主图并排，瓶形、颜色和标签文字保持一致。由 Beatra AI 生成。"></p>
 
 *厨房桌上一只虚构品牌 NORTHLOOP 保温瓶的商品原图（这张原图本身也是为演示 AI 生成的），与据此生成的白底主图并排，瓶形、颜色和标签文字保持一致。由 Beatra AI 生成。*
+
+在你的 Agent 里这样说：
+
+```text
+这是我用手机拍的 NORTHLOOP 保温瓶放在厨房餐桌上的照片（./bottle-table.jpg）。用它规划并做出这套商品图：先出白底主图，再出瓶盖与瓶颈细节、书桌生活场景和开箱图，瓶形、哑光鼠尾草绿和标签文字都不要变。
+```
 
 提示词：
 
