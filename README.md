@@ -23,7 +23,7 @@ Turn real product photos and confirmed SKU facts into a matching ecommerce image
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ecommerce-listing-image-set`](skills/ecommerce-listing-image-set) | [SKILL.md](skills/ecommerce-listing-image-set/SKILL.md) | 0.2.9 |
+| [`ecommerce-listing-image-set`](skills/ecommerce-listing-image-set) | [SKILL.md](skills/ecommerce-listing-image-set/SKILL.md) | 0.3.0 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ecommerce-listing-image-set). Report issues there.
 
