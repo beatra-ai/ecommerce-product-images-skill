@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ecommerce-product-images-skill",
+  "description": "The Beatra Ecommerce Product Images skill as a Claude Code plugin.",
+  "owner": {
+    "name": "Beatra AI",
+    "url": "https://github.com/beatra-ai"
+  },
+  "plugins": [
+    {
+      "name": "ecommerce-listing-image-set",
+      "source": "./",
+      "description": "Turn verified SKU facts and product photos into a cohesive ecommerce image set with a hero image, feature visuals, lifestyle scenes, size views, and in-box images."
+    }
+  ]
+}

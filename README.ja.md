@@ -35,6 +35,33 @@
 npx skills add beatra-ai/ecommerce-product-images-skill
 ```
 
+Claude Code プラグインとして：
+
+```bash
+claude plugin marketplace add beatra-ai/ecommerce-product-images-skill
+claude plugin install ecommerce-listing-image-set@ecommerce-product-images-skill
+```
+
+Codex プラグインとして：
+
+```bash
+codex plugin marketplace add beatra-ai/ecommerce-product-images-skill
+codex plugin add ecommerce-listing-image-set@ecommerce-product-images-skill
+```
+
+GitHub Copilot CLI プラグインとして：
+
+```bash
+copilot plugin marketplace add beatra-ai/ecommerce-product-images-skill
+copilot plugin install ecommerce-listing-image-set@ecommerce-product-images-skill
+```
+
+Gemini CLI 拡張機能として：
+
+```bash
+gemini extensions install https://github.com/beatra-ai/ecommerce-product-images-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash

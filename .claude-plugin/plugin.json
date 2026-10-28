@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "ecommerce-listing-image-set",
+  "displayName": "Ecommerce Product Images",
+  "version": "0.3.0",
+  "description": "Turn verified SKU facts and product photos into a cohesive ecommerce image set with a hero image, feature visuals, lifestyle scenes, size views, and in-box images.",
+  "author": {
+    "name": "Beatra AI",
+    "url": "https://github.com/beatra-ai"
+  },
+  "homepage": "https://beatra.ai/skills/ecommerce-listing-image-set",
+  "repository": "https://github.com/beatra-ai/ecommerce-product-images-skill",
+  "license": "MIT-0",
+  "icon": "./assets/icon.png"
+}

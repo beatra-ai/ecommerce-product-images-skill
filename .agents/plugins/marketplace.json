@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce-product-images-skill",
+  "interface": {
+    "displayName": "Ecommerce Product Images"
+  },
+  "plugins": [
+    {
+      "name": "ecommerce-listing-image-set",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}

@@ -35,6 +35,33 @@ With the [`skills`](https://skills.sh) CLI:
 npx skills add beatra-ai/ecommerce-product-images-skill
 ```
 
+As a Claude Code plugin:
+
+```bash
+claude plugin marketplace add beatra-ai/ecommerce-product-images-skill
+claude plugin install ecommerce-listing-image-set@ecommerce-product-images-skill
+```
+
+As a Codex plugin:
+
+```bash
+codex plugin marketplace add beatra-ai/ecommerce-product-images-skill
+codex plugin add ecommerce-listing-image-set@ecommerce-product-images-skill
+```
+
+As a GitHub Copilot CLI plugin:
+
+```bash
+copilot plugin marketplace add beatra-ai/ecommerce-product-images-skill
+copilot plugin install ecommerce-listing-image-set@ecommerce-product-images-skill
+```
+
+As a Gemini CLI extension:
+
+```bash
+gemini extensions install https://github.com/beatra-ai/ecommerce-product-images-skill
+```
+
 With the GitHub CLI:
 
 ```bash
