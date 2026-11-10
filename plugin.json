@@ -10,6 +10,21 @@
   "homepage": "https://beatra.ai/skills/ecommerce-listing-image-set",
   "repository": "https://github.com/beatra-ai/ecommerce-product-images-skill",
   "license": "MIT-0",
+  "keywords": [
+    "AI product listing images",
+    "ecommerce image set",
+    "product image set",
+    "product gallery generator",
+    "Amazon listing images",
+    "product hero image",
+    "product feature images",
+    "lifestyle product photography",
+    "product detail images",
+    "size and fit image",
+    "in-box image",
+    "Shopify product images",
+    "Etsy listing photos"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -19,6 +34,13 @@
         "developerName": "Beatra AI",
         "category": "Creativity",
         "websiteURL": "https://beatra.ai/skills/ecommerce-listing-image-set",
+        "supportURL": "https://github.com/beatra-ai/.github/blob/main/SUPPORT.md",
+        "privacyPolicyURL": "https://beatra.ai/privacy",
+        "termsOfServiceURL": "https://beatra.ai/terms",
+        "defaultPrompt": [
+          "Use AI Ecommerce Listing Image Set for our new tumbler: hero, features, details, lifestyle, size. Photos and specs attached."
+        ],
+        "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"
       }
     }

@@ -9,5 +9,20 @@
   "homepage": "https://beatra.ai/skills/ecommerce-listing-image-set",
   "repository": "https://github.com/beatra-ai/ecommerce-product-images-skill",
   "license": "MIT-0",
+  "keywords": [
+    "AI product listing images",
+    "ecommerce image set",
+    "product image set",
+    "product gallery generator",
+    "Amazon listing images",
+    "product hero image",
+    "product feature images",
+    "lifestyle product photography",
+    "product detail images",
+    "size and fit image",
+    "in-box image",
+    "Shopify product images",
+    "Etsy listing photos"
+  ],
   "logo": "assets/icon.png"
 }

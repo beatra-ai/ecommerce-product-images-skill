@@ -62,6 +62,12 @@ Gemini CLI 拡張機能として：
 gemini extensions install https://github.com/beatra-ai/ecommerce-product-images-skill
 ```
 
+Antigravity CLI プラグインとして：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ecommerce-product-images-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash
@@ -94,6 +100,14 @@ https://github.com/beatra-ai/ecommerce-product-images-skill から ecommerce-lis
 [before] Casual smartphone photo taken by a small online seller of their own product: one insulated stainless steel water bottle standing upright on a light oak kitchen table next to a window. The bottle has a matte sage green powder-coated body, a straight cylindrical shape with softly rounded shoulders, a brushed stainless steel neck ring, and a matte sage green screw cap with a short brushed steel carry loop on top. On the front of the body, printed in small white bold sans-serif capital letters, is the exact word "NORTHLOOP", and directly below it in smaller white capitals the exact text "750 ml". Nothing else is written anywhere on the bottle. The bottle is shown front-on at a slight angle, a little off center, with a kitchen wall softly out of focus behind it. Plain daylight from the window, slightly flat phone-camera colors, mild noise, honest amateur product snapshot. Photorealistic, no people, no other text or logos anywhere. ||| [after] Create slot 1, the clean product hero for a marketplace listing. Image 1 is the exact verified SKU. Preserve its matte sage green body, straight cylindrical shape with softly rounded shoulders, brushed stainless steel neck ring, matte sage green screw cap with brushed steel carry loop, and the small white printed text "NORTHLOOP" with "750 ml" directly below it, exactly as they appear in image 1, with no other text on the bottle. Show the single bottle upright, centered, front-on at eye level with the text facing the camera, on a pure white seamless background with a soft contact shadow, the bottle filling about three quarters of the frame height. Soft diffused daylight from the upper left, gentle natural shadows, a calm muted palette of sage, warm white, and light oak, crisp photorealistic product focus, the bottle as the clear focal point of the frame.
 ```
 
+## 入力と出力
+
+| | 種類 | 形式 | 仕様 |
+| --- | --- | --- | --- |
+| **入力** | 画像：実商品写真 | JPG、PNG、WEBP | — |
+| **入力** | テキスト：SKU情報 | — | — |
+| **出力** | 画像：メイン、訴求、詳細、使用シーン、サイズ・フィット、同梱内容の出品画像 | PNG | 1 リクエストあたり 4〜8 枚／2K／アスペクト比 1:1／編集可能 |
+
 ## 技術仕様と出力上限
 
 2026-10-18 時点。最新の一覧：https://docs.beatra.ai/ja/docs/models
@@ -123,13 +137,13 @@ https://github.com/beatra-ai/ecommerce-product-images-skill から ecommerce-lis
 
 出品に合わせて、メイン、訴求、詳細、使用シーン、サイズや着用感、パッケージ・同梱内容を選べます。
 
-### 確定した商品情報は必要ですか？
+### どんな商品情報が必要ですか？
 
-はい。対象の商品と仕様、見える特徴、寸法、同梱内容を確認してから設計します。
+対象の商品、仕様、見える特徴、寸法、同梱内容です。どの画像も実物をもとに描きます。
 
 ### セットの一枚だけを調整できますか？
 
-はい。採用した商品と視覚方向を基準に、選択画像へ集中した修正を行えます。
+はい。セットの商品と見た目の方向性を基準に、1枚だけに絞って修正できます。
 
 ## 更新とセキュリティ
 
@@ -139,7 +153,9 @@ https://github.com/beatra-ai/ecommerce-product-images-skill から ecommerce-lis
 
 ## ライセンス
 
-[MIT-0](LICENSE)：商用を含め、自由に使用・改変・再配布できます。クレジット表記は不要です。ClawHub 上のこれらのスキルと同じ条件です。
+このリポジトリのスキルファイル（`SKILL.md`、リファレンス、スクリプト）とこの README は [MIT-0](LICENSE) で提供しています。商用を含め、自由に使用・改変・再配布でき、クレジット表記は不要です。
+
+生成は Beatra のクラウドサービスで行われ、[Beatra 利用規約](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ecommerce-product-images-skill)が適用されます。
 
 ## リンク
 

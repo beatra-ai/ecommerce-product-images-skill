@@ -62,6 +62,12 @@ copilot plugin install ecommerce-listing-image-set@ecommerce-product-images-skil
 gemini extensions install https://github.com/beatra-ai/ecommerce-product-images-skill
 ```
 
+作为 Antigravity CLI 插件：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ecommerce-product-images-skill
+```
+
 使用 GitHub CLI：
 
 ```bash
@@ -93,6 +99,14 @@ gh skill install beatra-ai/ecommerce-product-images-skill ecommerce-listing-imag
 ```text
 [before] Casual smartphone photo taken by a small online seller of their own product: one insulated stainless steel water bottle standing upright on a light oak kitchen table next to a window. The bottle has a matte sage green powder-coated body, a straight cylindrical shape with softly rounded shoulders, a brushed stainless steel neck ring, and a matte sage green screw cap with a short brushed steel carry loop on top. On the front of the body, printed in small white bold sans-serif capital letters, is the exact word "NORTHLOOP", and directly below it in smaller white capitals the exact text "750 ml". Nothing else is written anywhere on the bottle. The bottle is shown front-on at a slight angle, a little off center, with a kitchen wall softly out of focus behind it. Plain daylight from the window, slightly flat phone-camera colors, mild noise, honest amateur product snapshot. Photorealistic, no people, no other text or logos anywhere. ||| [after] Create slot 1, the clean product hero for a marketplace listing. Image 1 is the exact verified SKU. Preserve its matte sage green body, straight cylindrical shape with softly rounded shoulders, brushed stainless steel neck ring, matte sage green screw cap with brushed steel carry loop, and the small white printed text "NORTHLOOP" with "750 ml" directly below it, exactly as they appear in image 1, with no other text on the bottle. Show the single bottle upright, centered, front-on at eye level with the text facing the camera, on a pure white seamless background with a soft contact shadow, the bottle filling about three quarters of the frame height. Soft diffused daylight from the upper left, gentle natural shadows, a calm muted palette of sage, warm white, and light oak, crisp photorealistic product focus, the bottle as the clear focal point of the frame.
 ```
+
+## 输入与输出
+
+| | 类型 | 格式 | 规格 |
+| --- | --- | --- | --- |
+| **输入** | 图片：真实商品照片 | JPG、PNG、WEBP | — |
+| **输入** | 文本：SKU 信息 | — | — |
+| **输出** | 图片：上架套图（主图、卖点图、细节图、场景图、尺寸图和包装清单图） | PNG | 单次 4–8 张；2K；画幅 1:1；可编辑 |
 
 ## 技术规格与输出限制
 
@@ -132,13 +146,13 @@ gh skill install beatra-ai/ecommerce-product-images-skill ecommerce-listing-imag
 
 可根据上架需要选择主图、卖点图、细节图、场景图、尺寸或比例展示图，以及包装清单图。
 
-### 必须提供已确认的商品信息吗？
+### 需要提供哪些商品信息？
 
-是的。规划套图前应确认具体是哪款商品，以及规格、可见细节、尺寸和包装内容。
+具体是哪款商品，以及规格、可见细节、尺寸和包装内容，这样每张图都按实物来画。
 
 ### 可以只精修其中一张吗？
 
-可以。可对选中的图片做聚焦修改，同时以已采用的商品和视觉方向为依据。
+可以。可对其中一张图做聚焦修改，同时以整套图的商品和视觉方向为依据。
 
 ## 更新与安全
 
@@ -148,7 +162,9 @@ gh skill install beatra-ai/ecommerce-product-images-skill ecommerce-listing-imag
 
 ## 许可证
 
-[MIT-0](LICENSE)：可自由使用、修改和再分发，包括商用，无需署名；与这些 skill 在 ClawHub 上的条款一致。
+本仓库的 Skill 文件（`SKILL.md`、参考文档和脚本）与本 README 采用 [MIT-0](LICENSE) 许可：可自由使用、修改和再分发，包括商用，无需署名。
+
+内容生成在 Beatra 云端完成，适用 [Beatra 服务条款](https://www.beatra.cn/terms?utm_source=github&utm_medium=flagship&utm_campaign=ecommerce-product-images-skill)。
 
 ## 相关链接
 
