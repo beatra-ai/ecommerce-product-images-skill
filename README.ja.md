@@ -23,7 +23,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ecommerce-listing-image-set`](skills/ecommerce-listing-image-set) | [SKILL.md](skills/ecommerce-listing-image-set/SKILL.md) | 0.3.0 |
+| [`ecommerce-listing-image-set`](skills/ecommerce-listing-image-set) | [SKILL.md](skills/ecommerce-listing-image-set/SKILL.md) | 0.3.1 |
 
 このリポジトリは [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ecommerce-listing-image-set) から自動的に公開されています。問題の報告はそちらへお願いします。
 
